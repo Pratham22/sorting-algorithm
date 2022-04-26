@@ -15,7 +15,7 @@ async function insertion(){
         while(j >= 0 && (parseInt(ele[j].style.height) > parseInt(key))){
             console.log('In while loop');
             // color
-            ele[j].style.background = 'blue';
+            ele[j].style.background = 'red';
             ele[j + 1].style.height = ele[j].style.height;
             j--;
 
